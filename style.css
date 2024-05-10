@@ -221,6 +221,10 @@ main {
 
 /* media queries at 375px */
 @media screen and (max-width: 375px) {
+  /* display humburger */
+  .hamburger {
+    display: block;
+  }
   .logo {
     width: 30px;
   }
