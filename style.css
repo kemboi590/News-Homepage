@@ -202,17 +202,14 @@ main {
   font-weight: 600;
 }
 
-.hamburger {
-  display: none;
-}
 /* media queries at 375px */
 @media screen and (max-width: 375px) {
   /* Add this to control the visibility of the menu */
 
-  .logo{
+  .logo {
     width: 30px;
   }
-  .logo img{
+  .logo img {
     width: 100%;
   }
   .menu {
