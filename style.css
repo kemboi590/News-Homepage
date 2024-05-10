@@ -38,6 +38,20 @@ nav ul li a {
   font-size: 1rem;
 }
 
+.close-burger {
+    display: none; 
+    position: absolute; 
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer; 
+    width: 25px;
+  }
+
+  .close-burger img{
+    width: 100%;
+  
+  }
+
 main {
   display: flex;
   margin: 0 2.5rem;
@@ -216,18 +230,18 @@ main {
     display: none;
   }
 
-  .menu.open {
+.menu.open {
     display: flex;
     flex-direction: column;
     position: absolute;
-    top: 100%;
+    top: 0;
     left: 0;
     width: 100%;
     background-color: #fff;
     border: 1px solid #f1f1f1;
     padding: 1rem 0;
     background-color: grey;
-  }
+}
 
   .menu.open li {
     margin: 0;
@@ -242,6 +256,10 @@ main {
 
   .menu.open li a:hover {
     background-color: #f1f1f1;
+  }
+
+  .close-burger {
+    display: block; 
   }
 
   main {
