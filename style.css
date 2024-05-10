@@ -38,6 +38,10 @@ nav ul li a {
   font-size: 1rem;
 }
 
+.hamburger {
+  display: none;
+}
+
 .close-burger {
     display: none; 
     position: absolute; 
@@ -218,8 +222,6 @@ main {
 
 /* media queries at 375px */
 @media screen and (max-width: 375px) {
-  /* Add this to control the visibility of the menu */
-
   .logo {
     width: 30px;
   }
