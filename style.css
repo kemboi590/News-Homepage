@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 .hamburger {
-  display: none; /* hide the hamburger menu */
+  display: none; 
 }
 
 .close-burger {
@@ -225,6 +225,16 @@ main {
   .hamburger {
     display: block;
   }
+
+  .close-burger {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    width: 25px;
+  }
+
   .logo {
     width: 30px;
   }
