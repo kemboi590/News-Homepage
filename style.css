@@ -39,7 +39,7 @@ nav ul li a {
 }
 
 .hamburger {
-  display: none; 
+  display: none;
 }
 
 .close-burger {
@@ -232,7 +232,7 @@ main {
     top: 1rem;
     right: 1rem;
     cursor: pointer;
-    width: 25px;
+    width: 30px;
   }
 
   .logo {
@@ -250,17 +250,18 @@ main {
     flex-direction: column;
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: 60%;
     background-color: #fff;
     height: 100vh;
-    justify-content: flex-start;
-    align-items: flex-start;
-    padding: 2.5rem 1rem;
+    width: 70%;
+    padding: 2rem 1rem;
+    margin-top: -20%;
   }
 
   .menu.open li {
     margin: 0;
+    width: 100%;
   }
 
   .menu.open li a {
@@ -268,6 +269,8 @@ main {
     padding: 1rem 2rem;
     color: #333;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 1.2rem;
   }
 
   .menu.open li a:hover {
