@@ -118,12 +118,16 @@ main {
 }
 
 .web-description button {
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 1.5rem;
   background-color: hsl(5, 85%, 63%);
   color: #fff;
   border: none;
   cursor: pointer;
   margin-top: 1rem;
+}
+
+.web-description button:hover {
+  background-color: hsl(240, 100%, 5%);
 }
 .web-description button a {
   text-decoration: none;
@@ -137,6 +141,11 @@ main {
   display: flex;
   flex-direction: column;
   border: 1px solid #f1f1f1;
+}
+
+.aside-section .news .title:active {
+  color: hsl(35, 77%, 62%);
+  cursor: pointer;
 }
 
 .new h1 {
@@ -211,6 +220,12 @@ main {
   font-weight: 800;
   line-height: 1.5;
 }
+
+.card-details h2:active{
+ color: hsl(5, 85%, 63%);
+ cursor: pointer;
+}
+
 
 .card-details p {
   font-size: 1rem;
